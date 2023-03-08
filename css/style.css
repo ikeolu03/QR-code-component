@@ -5,60 +5,61 @@
     font-family: 'Outfit', sans-serif;
 }
 
-html{
-    font-size: 62.5%;
-}
-
 body{
-    background-color: hsl(217, 63%, 95%)
+    background-color: #eaf0fa;
 }
 
 .container{
-    margin-top: 3em;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .box{
-    min-height: 500px;
-    width: 350px;
-    background-color:hsl(0, 0%, 100%);
-    border-radius: 1.5rem;
+    padding: 1em;
+    max-width: 500px;
+    width: 375px;
+    background-color: #fff;
+    border-radius: 1em;
 }
 
 
-.box__img{
-    width: 300px;
-    margin: 5% 7%;
+.box-img{
+    max-width: 100%;
+    border-radius: .7em;
 }
 
-.box__info{
-    margin: 0px 50px 20px;
+.box-info{
     text-align: center;
+    margin: 1em;
 }
 
-.box__heading{
-    font-size: 2rem;
+.box-heading{
+    font-size: 1.7rem;
     font-weight: 700;
-    color: hsl(218, 44%, 22%);
+    color: #1f3251;
 }
 
-.box__text{
-    font-size: 1.5rem;
+.box-text{
+    font-size: 1.2rem;
     font-weight: 400;
-    color: hsl(211, 20%, 74%);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    color: 	#7b879d;
+    margin-top: 1em;
 }
 
 .attribution {
-    font-size: 11px; 
+    font-size: .7rem; 
     text-align: center;
-    padding: 20px 0;
+    padding: .2em 0;
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%);
+    color: #3e52a3;
     text-decoration: none; 
+}
+
+.attribution a:hover,
+.attribution a:focus{
+    color: 	#7b879d;
 }
